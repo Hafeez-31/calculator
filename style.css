@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+   margin-top: 20px;
+   justify-items: center;
+   background-color: rgb(4, 166, 246);
+
+}
+.calculator-container {
+    width: 400px;
+    height: 550px;
+    background-color: rgba(45, 32, 32, 0.811);
+    border-radius: 15px;
+    box-shadow: 20px 25px 25px black;
+    padding: 25px;
+}
+.display {
+    width: 95%; 
+    height: 90px;
+    background-color: rgb(195, 182, 182);
+    color: black;
+    font-size: 50px;
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 10px;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-top: 11px; 
+}
+::placeholder {
+  font-size: 50px;
+  color: black;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+td {
+    padding: 7px;
+}
+input[type="button"] {
+    width: 92%;
+    height: 60px;
+    font-size: 25px;
+    border: none;
+    border-radius: 55px;
+    cursor: pointer;
+}
+.number {
+    background-color: #666;
+    color: white;
+}
+.operator, .clear, .equals {
+    background-color: orange;
+    color: white;
+}
+.allclear {
+    background-color: #ccc;
+    color: #333;
+}
+.doublezero, .numberzero {
+    background-color: #666;
+    color: white;
+}
